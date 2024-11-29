@@ -4714,71 +4714,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.07 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "905f2b13-0152-4975-9334-76e8a1637952")
-		(property "Reference" "#PWR02"
-			(at 179.07 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.197 146.6342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ffb818-b99b-49be-a7a0-94fe7fa3f327")
-		)
-		(instances
-			(project "SilentStepStick2130_shield"
-				(path "/8bc5d84e-5477-4bd6-b05b-67a3efeb428d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Uno_R3_Shield")
 		(at 205.74 114.3 0)
 		(unit 1)
@@ -5146,6 +5081,71 @@
 			(project "SilentStepStick2130_shield"
 				(path "/8bc5d84e-5477-4bd6-b05b-67a3efeb428d"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1925665-e349-4978-84f7-a504a6f710fe")
+		(property "Reference" "#PWR02"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.197 146.6342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00b8ac85-41b5-4d0e-90b8-dcbb770f9ba5")
+		)
+		(instances
+			(project "SilentStepStick2130_shield"
+				(path "/8bc5d84e-5477-4bd6-b05b-67a3efeb428d"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
